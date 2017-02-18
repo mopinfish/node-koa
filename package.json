@@ -1,0 +1,35 @@
+{
+  "name": "node-koa",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -o app.js",
+    "heroku-postbuild": "npm run build",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mopinfish/node-koa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mopinfish/node-koa/issues"
+  },
+  "homepage": "https://github.com/mopinfish/node-koa#readme",
+  "dependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "koa": "^2.0.0",
+    "koa-nunjucks-2": "^3.0.0-alpha.5",
+    "koa-nunjucks2": "^2.0.3",
+    "koa-router": "^7.0.1"
+  }
+}
