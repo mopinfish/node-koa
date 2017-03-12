@@ -1,3 +1,4 @@
+# Node
 ## build
 ```
 npm run build
@@ -7,3 +8,7 @@ npm run build
 ```
 npm start
 ```
+
+# Docker
+## install docker-compose
+https://github.com/docker/compose/releases
